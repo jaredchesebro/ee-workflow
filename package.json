@@ -1,0 +1,21 @@
+{
+  "name": "ee-workflow",
+  "version": "1.0.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jaredchesebro/ee-workflow.git"
+  },
+  "author": "jaredchesebro",
+  "license": "ISC",
+  "homepage": "https://github.com/jaredchesebro/ee-workflow#readme",
+  "devDependencies": {
+    "laravel-mix": "^6.0.31",
+    "resolve-url-loader": "^4.0.0",
+    "sass": "^1.42.1",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "@popperjs/core": "^2.9.2",
+    "bootstrap": "^5.1.1"
+  }
+}

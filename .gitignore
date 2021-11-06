@@ -1,0 +1,30 @@
+.DS_Store
+node_modules/
+
+# CONFIG
+public_html/system/user/config/*
+!public_html/system/user/config/.htaccess
+!public_html/system/user/config/index.html
+
+# CACHE
+public_html/system/user/cache/*
+!public_html/system/user/cache/index.html
+
+# USER UPLOADS
+public_html/images/avatars/*
+!public_html/images/avatars/index.html
+public_html/images/captchas/*
+!public_html/images/captchas/index.html
+public_html/images/pm_attachments/*
+!public_html/images/pm_attachments/index.html
+public_html/images/signature_attachments/*
+!public_html/images/signature_attachments/index.html
+public_html/images/uploads/*
+!public_html/images/uploads/index.html
+
+# ASSETS
+public_html/assets/css/*
+!public_html/assets/css/.gitkeep
+public_html/assets/js/*
+!public_html/assets/js/.gitkeep
+public_html/mix-manifest.json
