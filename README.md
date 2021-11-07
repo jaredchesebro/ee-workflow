@@ -5,14 +5,18 @@ A simple Github Actions workflow example for deploying ExpressionEngine sites to
 ---
 ### Staging
 **File:** `.github/workflows/staging.yml`
-**Trigger:** Workflow Dispatch
+
+**Triggers:** Workflow Dispatch
+
 **Secrets:** `SSH_PRIVATE_KEY`, `STAGING_SSH_USER`, `STAGING_SSH_HOST`, `STAGING_SSH_PATH`
 
 ----
 
 ### Production
 **File:** `.github/workflows/production.yml`
+
 **Triggers:** Workflow Dispatch, and Release (published, deleted)
+
 **Secrets:** `SSH_PRIVATE_KEY`, `SSH_USER`, `SSH_HOST`, `SSH_PATH`
 
 ---
