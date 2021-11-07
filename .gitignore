@@ -1,5 +1,6 @@
 .DS_Store
 node_modules/
+/public_html/.htaccess
 
 # CONFIG
 public_html/system/user/config/*
@@ -21,6 +22,8 @@ public_html/images/signature_attachments/*
 !public_html/images/signature_attachments/index.html
 public_html/images/uploads/*
 !public_html/images/uploads/index.html
+public_html/uploads/*
+!public_html/uploads/.gitkeep
 
 # ASSETS
 public_html/assets/css/*
